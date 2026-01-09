@@ -1,5 +1,13 @@
 
 
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+
+
+
 nav {
     display: flex;
     align-items: center;
