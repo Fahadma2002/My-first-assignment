@@ -1,0 +1,138 @@
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 30px 200px ;
+    height: 24px;
+}
+nav img{
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 130px;
+}
+nav .btn {
+    background-color: #30B868;
+    color: white;
+    padding: 13px;
+    margin-right: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+section .banner-image img {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 1600px;
+}
+#banner{
+
+    margin-left: -10px;
+    margin-right:-10px;
+    background-image: url(./images/hero-bg.png);
+    height: 680px;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#banner .banner-image {
+    width: 1600px;
+    margin-left: -10px;
+    padding-bottom: 60px;
+    
+}
+
+
+#banner .banner-content {
+    text-align: center ;
+    /* margin-bottom: 180px; */
+}
+.banner-content h6{
+    color: #30B868;
+    background-color: white;
+    margin-right:  650px ; margin-left: 650px;
+    /* margin-bottom: 15px; */
+    border-radius: 5px;
+    max-width: 230px;
+    padding: 5px;
+
+}
+
+.banner-content h1 .number-1-head {
+    color: white;
+    font-weight: 700;
+    background-color: none;
+}
+.banner-content h1 .number-2-head {
+    color: #30B868;
+}
+.banner-content p {
+    margin-bottom: 30px;
+    color: white;
+}
+#banner .btn-2 {
+    max-width: 250px;
+    padding: 15px;
+    padding-right: 35px;
+    color: white;
+    background-color: #30B868;
+    border-radius: 5px;
+    border: none;
+}
+#banner .btn-3 {
+    color: white;
+    background-color: unset;
+    margin-left: 20px;
+    border: 2px solid white;
+    max-width: 250px;
+    padding: 15px;
+    padding-left: 35px;
+    border-radius: 5px;
+    margin-bottom: 160px;
+}
+#skills {
+    margin-top: 30px;
+}
+#skills .skills-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#skills .skills-container .section-heading {
+    text-align: center;
+}
+#skills .skills-container .skill-box{
+    display: flex;
+    gap: 24px;
+}
+.skill-box .skill-card{
+    /* border: 1px solid red; */
+    padding: 30px;
+    /* text-align: center; */
+    max-width: 300px;
+}
+.skill-box .skill-card img{
+    max-width: 60px;
+    margin:50px ;
+    margin-bottom: 15px;
+    background-color: orangered;
+    align-items: center;
+    background-size: round ;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+.skill-card h3{
+    font-size: 20px;
+}
